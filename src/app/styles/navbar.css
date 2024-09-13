@@ -1,0 +1,43 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5vmin 15vmin 0.5vmin 15vmin;
+    background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent white */
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px); /* For Safari support */
+    z-index: 1000; /* Ensure navbar is above other content */
+    position: fixed;
+    width: 100%;
+}
+
+.navbarRight{
+    display: flex;
+    gap: 6vmin;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+}
+.abtBtn, .contactBtn{
+    background-color: transparent;
+    color: #131C3B;
+    border: none;
+    font-weight: 600;
+    font-size: 2vmin;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.pageIcon{
+    background-color: transparent;
+}
+.portfolioIcon{
+    background-color: inherit;
+    width: 7vmin;
+    height: auto;
+}
+
+@media (max-width: 768px) { 
+    .navbar{
+        padding: 2vmin 15vmin 0 5vmin;
+    }
+}

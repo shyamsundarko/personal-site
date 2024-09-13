@@ -1,0 +1,61 @@
+.section1Container{
+    padding: 45vh 15vmin;
+    text-align: center;
+    position: relative; /* Add this */
+    overflow: hidden; /* Add this to contain the background */
+}
+.mainText{
+    font-size: 5vmin;
+    color: #131C3B;
+    font-weight: 600;
+    letter-spacing: -0.3px;
+    z-index: 2;
+    position: relative;
+    padding-bottom: 2vmin;
+    padding-top: 1vmin;
+}
+.subText{
+    margin-top: 1vmin;
+    color: #919191;
+    font-weight: 300;
+    letter-spacing: 1.5px;
+    font-size: 2.5vmin;
+    position: relative;
+}
+
+.profilePic{
+    object-fit: cover;
+}
+
+.dottedBackground {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0.5;
+    background-image: radial-gradient(circle, #131C3B 1px, transparent 1px);
+    background-size: 20px 20px; /* Adjust for dot spacing */
+    background-position: center;
+}
+.dottedBackground::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: radial-gradient(circle, transparent 25%, white 80%);
+    pointer-events: none;
+}
+
+@media (max-width: 768px){
+    .section1Container{
+        height: 100vh;
+        padding: 45vh 10vmin;
+    }
+    .mainText{
+        
+    }
+}

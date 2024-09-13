@@ -1,0 +1,45 @@
+.section4Container{
+    text-align: center;
+    padding: 10vmin 20vmin 20vmin 20vmin;
+    border-top: solid 2px rgb(236, 236, 236);
+}
+.section4Title{
+    margin-bottom: 6vmin;
+    font-size: 3.5vmin;
+    color: #131C3B;
+    font-weight: 600;
+}
+.companies{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    overflow: hidden;
+}
+.companyLogo{
+    /* flex: 1; */
+    height: auto;
+    width: 35vmin;
+}
+.accenture{
+    margin-bottom: 1vmin;
+    width: 17vw;
+}
+
+@media (max-width: 768px) {
+    .section4Container{ 
+        padding: 10vmin 10vmin 20vmin 10vmin;
+    }
+    .section4Title{
+        font-size: 4.5vmin;
+    }
+    .companies{
+        overflow-x: scroll;
+        gap: 5vmin;
+        scrollbar-width: none;
+    }
+    .accenture{
+        width: 22vw;
+    }
+
+ }

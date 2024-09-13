@@ -1,0 +1,112 @@
+.section2Container {
+    text-align: left;
+    position: relative;
+  }
+  
+  .imgNameContainer {
+    background-color: #1c1c1c;
+    padding: 20vmin 30vmin 35vmin 30vmin;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10vmin;
+  }
+  
+  .profilePic, .uniLogo {
+    border-radius: 10px;
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border: solid 1px rgb(255, 255, 255);
+  }
+  
+  .nameContainer {
+    width: 100%;
+    background-color: inherit;
+  }
+  
+  .nameSection {
+    font-size: 4vmin;
+    font-weight: 600;
+    color: white;
+    background-color: inherit;
+  }
+  
+  .introSection {
+    margin-top: 2vmin;
+    font-size: 1.8vmin;
+    letter-spacing: 0.5px;
+    line-height: 1.7;
+    font-weight: 300;
+    background-color: inherit;
+  }
+  
+  .unisContainer {
+    background-color: rgb(255, 255, 255);
+    border: solid 3px rgb(30, 30, 30);
+    padding: 15vmin;
+    border-radius: 10px;
+    margin-top: -10vmin;
+    width: 90%;
+    /* max-width: 1000px; */
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .containerHeading {
+    text-align: center;
+    font-size: 3vmin;
+    color: #252525;
+    margin-bottom: 4vmin;
+  }
+  
+  .unis {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5vmin;
+  }
+  
+  .ntu, .northeastern {
+    flex: 1 1 200px;
+    max-width: 300px;
+  }
+  
+  @media (min-width: 768px) {
+    .imgNameContainer {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  
+    .profilePic {
+      flex: 1;
+      max-width: 40%;
+    }
+  
+    .nameContainer {
+      flex: 1.5;
+    }
+  
+    .unisContainer {
+      margin-top: -15vmin;
+    }
+  }
+
+  @media (max-width: 768px) { 
+    .imgNameContainer {
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 20vmin 10vmin 35vmin 10vmin;
+    }
+    .nameSection{
+      font-size: 5vmin;
+    }
+    .introSection{
+      font-size: 3.5vmin;
+    }
+    .containerHeading{
+      font-size: 3.5vmin;
+      margin-bottom: 10vmin;
+    }
+  }
