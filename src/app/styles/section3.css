@@ -22,7 +22,7 @@
 }
 .dine{
     width: 100%;
-    border-radius: 20px;
+    border-radius: 10px;
     padding: 8vmin 0;
     /* box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px; */
     /* border: solid 2px #ededed; */
@@ -33,7 +33,7 @@
 .photography{
     flex: 1;
     padding: 8vmin 0;
-    border-radius: 20px;
+    border-radius: 10px;
     background-color: #25252508;
 }
 .photography * {
@@ -110,7 +110,7 @@
 @media (max-width: 768px) { 
 
     .section3Container{
-        padding: 15vmin 10vmin;
+        padding: 15vmin 5vmin;
     }
     .containerTitle{
         font-size: 5vmin;

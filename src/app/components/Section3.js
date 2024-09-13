@@ -34,7 +34,7 @@ const Section3 = () => {
                   Photography Portfolio
                 </div>
                 <div className="workDesc">
-                  A full fledged restaurant system that covers the entire lifecycle from QR order taking to backend management
+                  A responsive photography portfolio I created using HTML, CSS and JS.
                 </div>
                 <a href="https://shyamsundarko.github.io/photography_portfolio/" target="_blank" rel="noopener noreferrer" className='linkContainer'>
                   <button className="workLink">
@@ -50,7 +50,7 @@ const Section3 = () => {
                   Photography Portfolio
                 </div>
                 <div className="workDesc">
-                  A full fledged restaurant system that covers the entire lifecycle from QR order taking to backend management
+                  A responsive photography portfolio I created using HTML, CSS and JS.
                 </div>
                 <a href="https://shyamsundarko.github.io/photography_portfolio/" target="_blank" rel="noopener noreferrer" className='linkContainer'>
                   <button className="workLink">
