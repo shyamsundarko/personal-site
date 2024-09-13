@@ -32,15 +32,14 @@
 }
 .photography{
     flex: 1;
-    background-color: inherit;
-    border: solid 3px #252525;
     padding: 8vmin 0;
     border-radius: 20px;
+    background-color: #25252508;
 }
-.photography *{
-    background-color: inherit;
-    
+.photography * {
+    background-color: transparent;
 }
+
 .photographyTitle{
     font-size: 4vmin;
     color: #252525;
@@ -121,6 +120,7 @@
     }
     .flexedWork{
         flex-direction: column;
+        gap: 2vmin;
     }
     .dine{
         /* border: dashed 2px #252525; */
@@ -144,6 +144,9 @@
     }
     .linkText{
         font-size: 3vmin;
+    }
+    .flexedWork{
+        margin-top: 2vmin;
     }
 
 }

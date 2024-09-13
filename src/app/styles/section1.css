@@ -56,6 +56,9 @@
         padding: 45vh 10vmin;
     }
     .mainText{
-        
+        /* font-size: 5.5vmin; */
+    }
+    .subText{
+        font-size: 3vmin;
     }
 }

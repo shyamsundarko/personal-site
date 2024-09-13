@@ -30,6 +30,7 @@
     font-weight: 600;
     color: white;
     background-color: inherit;
+    
   }
   
   .introSection {
@@ -101,9 +102,12 @@
     }
     .nameSection{
       font-size: 5vmin;
+      text-align: center;
     }
     .introSection{
       font-size: 3.5vmin;
+      /* text-align: center; */
+      text-align: center;
     }
     .containerHeading{
       font-size: 3.5vmin;
