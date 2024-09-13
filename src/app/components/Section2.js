@@ -13,7 +13,7 @@ const Section2 = () => {
             />
             <div className="nameContainer">
                 <div className="nameSection">I&apos;m Shyam Sundar</div>
-                <div className="introSection">I&apos;m passionate about building digital products that solve real-world problems. Over the past year, I collaborated with talented people to create innovative solutions for both businesses and consumers. I'm entrepreneurial, quietly confident, and always curious, continuously refining my skills as I seek new opportunities for internships or full-time roles.</div>
+                <div className="introSection">I&apos;m passionate about building digital products that solve real-world problems. Over the past year, I collaborated with talented people to create innovative solutions for both businesses and consumers. I&apos;m entrepreneurial, quietly confident, and always curious, continuously refining my skills as I seek new opportunities for internships or full-time roles.</div>
             </div>
         </div>
         <div className="unisContainer">
