@@ -16,34 +16,41 @@
 .flexedWork{
     display: flex;
     justify-content: center;
-    align-items: center;
-    gap: 1vmin;
-    margin-top: 1vmin;
+    align-items: stretch;
+    gap: 2vmin;
+    margin-top: 2vmin;
+    flex-wrap: wrap;
+    
 }
+
 .dine{
     width: 100%;
     border-radius: 10px;
-    padding: 8vmin 0;
-    /* box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px; */
-    /* border: solid 2px #ededed; */
-    /* border-left: solid 6px #252525; */
-    /* border: dashed 3px #252525; */
-    background-color: #2f2f2f;
+    padding: 6vmin 2vmin;
+    background-color: #252525;
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
 }
-.photography{
-    flex: 1;
-    padding: 8vmin 0;
+.work{
+    width: 49%;
+    padding: 6vmin 0vmin;
     border-radius: 10px;
-    background-color: #25252508;
+    /* background-color: #25252508; */
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: solid 2px #252525;
+    
 }
-.photography * {
+.work * {
     background-color: transparent;
 }
 
-.photographyTitle{
-    font-size: 4vmin;
+.workTitle{
+    font-size: 3.5vmin;
     color: #252525;
     font-weight: 600;
+    letter-spacing: -0.5px;
 }
 .linkContainer{
     display: flex;
@@ -51,18 +58,20 @@
     align-items: center;
 }
 .dine *{
-    background-color: #2f2f2f;
+    background-color: #252525;
 }
 .dineSvg{
     width: 15vmin;
     height: auto;
 }
+
 .workDesc{
     margin: 3vmin 0;
     color: #252525;
     font-size: 2.2vmin;
     padding: 0 10vmin;
     letter-spacing: 0.5px;
+    flex-grow: 1;
 }
 .white{
     color: #f8f8f8;
@@ -98,6 +107,7 @@
     font-weight: 500;
     cursor: pointer;
 }
+
 .workLink svg{
     background-color: inherit;
 }
@@ -120,7 +130,7 @@
     }
     .flexedWork{
         flex-direction: column;
-        gap: 2vmin;
+        gap: 4vmin;
     }
     .dine{
         /* border: dashed 2px #252525; */
@@ -139,14 +149,23 @@
         padding: 1vmin 2vmin;
     }
     .workLink svg{
-        width: 3.5vmin;
+        width: 4.5vmin;
         height: auto;
     }
     .linkText{
         font-size: 3vmin;
     }
     .flexedWork{
-        margin-top: 2vmin;
+        margin-top: 4vmin;
+    }
+    .work{
+        width: 100%;
+    }
+    .workTitle{
+        font-size: 5vmin;
+    }
+    .linkText{
+        font-size: 4.2vmin;
     }
 
 }

@@ -29,28 +29,60 @@ const Section3 = () => {
             </div>
           </div>
           <div className="flexedWork">
-          <div className="photography">
-              <div className="photographyTitle">
-                  Photography Portfolio
+          <div className="paper work">
+              <div className="workTitle">
+                  Published paper on Springer
                 </div>
                 <div className="workDesc">
-                  A responsive photography portfolio I created using HTML, CSS and JS.
+                  A paper covering my research and development focused on creating a mobile application for expediting first-aid and reducing casualties - mainly for Out-Of-Hospital cases
                 </div>
-                <a href="https://shyamsundarko.github.io/photography_portfolio/" target="_blank" rel="noopener noreferrer" className='linkContainer'>
+                <a href="https://link.springer.com/chapter/10.1007/978-3-031-35998-9_22" target="_blank" rel="noopener noreferrer" className='linkContainer'>
                   <button className="workLink">
                     <svg width="35" height="33" viewBox="0 0 35 33" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M10.5 6.59995C9.57174 6.59995 8.6815 6.94763 8.02513 7.5665C7.36875 8.18537 7 9.02474 7 9.89995V23.1C7 23.9752 7.36875 24.8145 8.02513 25.4334C8.6815 26.0523 9.57174 26.4 10.5 26.4H24.5C25.4283 26.4 26.3185 26.0523 26.9749 25.4334C27.6313 24.8145 28 23.9752 28 23.1V18.975C28 18.7561 28.0922 18.5463 28.2563 18.3916C28.4204 18.2369 28.6429 18.15 28.875 18.15C29.1071 18.15 29.3296 18.2369 29.4937 18.3916C29.6578 18.5463 29.75 18.7561 29.75 18.975V23.1C29.75 24.4128 29.1969 25.6718 28.2123 26.6001C27.2277 27.5284 25.8924 28.05 24.5 28.05H10.5C9.10761 28.05 7.77226 27.5284 6.78769 26.6001C5.80312 25.6718 5.25 24.4128 5.25 23.1V9.89995C5.25 8.58713 5.80312 7.32808 6.78769 6.39977C7.77226 5.47147 9.10761 4.94995 10.5 4.94995H14.875C15.1071 4.94995 15.3296 5.03687 15.4937 5.19159C15.6578 5.34631 15.75 5.55615 15.75 5.77495C15.75 5.99375 15.6578 6.2036 15.4937 6.35831C15.3296 6.51303 15.1071 6.59995 14.875 6.59995H10.5ZM19.25 5.77495C19.25 5.55615 19.3422 5.34631 19.5063 5.19159C19.6704 5.03687 19.8929 4.94995 20.125 4.94995H28.875C29.1071 4.94995 29.3296 5.03687 29.4937 5.19159C29.6578 5.34631 29.75 5.55615 29.75 5.77495V14.025C29.75 14.2438 29.6578 14.4536 29.4937 14.6083C29.3296 14.763 29.1071 14.85 28.875 14.85C28.6429 14.85 28.4204 14.763 28.2563 14.6083C28.0922 14.4536 28 14.2438 28 14.025V7.7665L20.7445 14.6091C20.5802 14.764 20.3574 14.851 20.125 14.851C19.8926 14.851 19.6698 14.764 19.5055 14.6091C19.3412 14.4541 19.2489 14.244 19.2489 14.025C19.2489 13.8059 19.3412 13.5958 19.5055 13.4409L26.7628 6.59995H20.125C19.8929 6.59995 19.6704 6.51303 19.5063 6.35831C19.3422 6.2036 19.25 5.99375 19.25 5.77495Z" fill="#2972C4"/>
                     </svg>
-                    <div className="linkText">photography-portfolio</div>
+                    <div className="linkText">publication-link</div>
                   </button>
                 </a>
             </div>
-            <div className="photography">
-              <div className="photographyTitle">
+            <div className="dengueGo work">
+              <div className="workTitle">
+                  DengueGo Mobile Application
+                </div>
+                <div className="workDesc">
+                  A mobile app developed using Flutter aimed at curbing rising Dengue cases in Singapore. This was a semester long project created as part of my Software Engineering Course at Nanyang Technological University.
+                </div>
+                <a href="https://www.youtube.com/watch?v=4CXLHbKzXH8" target="_blank" rel="noopener noreferrer" className='linkContainer'>
+                  <button className="workLink">
+                    <svg width="35" height="33" viewBox="0 0 35 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M10.5 6.59995C9.57174 6.59995 8.6815 6.94763 8.02513 7.5665C7.36875 8.18537 7 9.02474 7 9.89995V23.1C7 23.9752 7.36875 24.8145 8.02513 25.4334C8.6815 26.0523 9.57174 26.4 10.5 26.4H24.5C25.4283 26.4 26.3185 26.0523 26.9749 25.4334C27.6313 24.8145 28 23.9752 28 23.1V18.975C28 18.7561 28.0922 18.5463 28.2563 18.3916C28.4204 18.2369 28.6429 18.15 28.875 18.15C29.1071 18.15 29.3296 18.2369 29.4937 18.3916C29.6578 18.5463 29.75 18.7561 29.75 18.975V23.1C29.75 24.4128 29.1969 25.6718 28.2123 26.6001C27.2277 27.5284 25.8924 28.05 24.5 28.05H10.5C9.10761 28.05 7.77226 27.5284 6.78769 26.6001C5.80312 25.6718 5.25 24.4128 5.25 23.1V9.89995C5.25 8.58713 5.80312 7.32808 6.78769 6.39977C7.77226 5.47147 9.10761 4.94995 10.5 4.94995H14.875C15.1071 4.94995 15.3296 5.03687 15.4937 5.19159C15.6578 5.34631 15.75 5.55615 15.75 5.77495C15.75 5.99375 15.6578 6.2036 15.4937 6.35831C15.3296 6.51303 15.1071 6.59995 14.875 6.59995H10.5ZM19.25 5.77495C19.25 5.55615 19.3422 5.34631 19.5063 5.19159C19.6704 5.03687 19.8929 4.94995 20.125 4.94995H28.875C29.1071 4.94995 29.3296 5.03687 29.4937 5.19159C29.6578 5.34631 29.75 5.55615 29.75 5.77495V14.025C29.75 14.2438 29.6578 14.4536 29.4937 14.6083C29.3296 14.763 29.1071 14.85 28.875 14.85C28.6429 14.85 28.4204 14.763 28.2563 14.6083C28.0922 14.4536 28 14.2438 28 14.025V7.7665L20.7445 14.6091C20.5802 14.764 20.3574 14.851 20.125 14.851C19.8926 14.851 19.6698 14.764 19.5055 14.6091C19.3412 14.4541 19.2489 14.244 19.2489 14.025C19.2489 13.8059 19.3412 13.5958 19.5055 13.4409L26.7628 6.59995H20.125C19.8929 6.59995 19.6704 6.51303 19.5063 6.35831C19.3422 6.2036 19.25 5.99375 19.25 5.77495Z" fill="#2972C4"/>
+                    </svg>
+                    <div className="linkText">video-demo</div>
+                  </button>
+                </a>
+            </div>
+            <div className="passionHub work">
+              <div className="workTitle">
+                  PassionHub Web Application
+                </div>
+                <div className="workDesc">
+                  A mini-social networking app created during the course of my semester at Northeastern focusing on bringing together people of different passions.
+                </div>
+                <a href="https://github.com/shyamsundarko/PassionHub" target="_blank" rel="noopener noreferrer" className='linkContainer'>
+                  <button className="workLink">
+                    <svg width="35" height="33" viewBox="0 0 35 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M10.5 6.59995C9.57174 6.59995 8.6815 6.94763 8.02513 7.5665C7.36875 8.18537 7 9.02474 7 9.89995V23.1C7 23.9752 7.36875 24.8145 8.02513 25.4334C8.6815 26.0523 9.57174 26.4 10.5 26.4H24.5C25.4283 26.4 26.3185 26.0523 26.9749 25.4334C27.6313 24.8145 28 23.9752 28 23.1V18.975C28 18.7561 28.0922 18.5463 28.2563 18.3916C28.4204 18.2369 28.6429 18.15 28.875 18.15C29.1071 18.15 29.3296 18.2369 29.4937 18.3916C29.6578 18.5463 29.75 18.7561 29.75 18.975V23.1C29.75 24.4128 29.1969 25.6718 28.2123 26.6001C27.2277 27.5284 25.8924 28.05 24.5 28.05H10.5C9.10761 28.05 7.77226 27.5284 6.78769 26.6001C5.80312 25.6718 5.25 24.4128 5.25 23.1V9.89995C5.25 8.58713 5.80312 7.32808 6.78769 6.39977C7.77226 5.47147 9.10761 4.94995 10.5 4.94995H14.875C15.1071 4.94995 15.3296 5.03687 15.4937 5.19159C15.6578 5.34631 15.75 5.55615 15.75 5.77495C15.75 5.99375 15.6578 6.2036 15.4937 6.35831C15.3296 6.51303 15.1071 6.59995 14.875 6.59995H10.5ZM19.25 5.77495C19.25 5.55615 19.3422 5.34631 19.5063 5.19159C19.6704 5.03687 19.8929 4.94995 20.125 4.94995H28.875C29.1071 4.94995 29.3296 5.03687 29.4937 5.19159C29.6578 5.34631 29.75 5.55615 29.75 5.77495V14.025C29.75 14.2438 29.6578 14.4536 29.4937 14.6083C29.3296 14.763 29.1071 14.85 28.875 14.85C28.6429 14.85 28.4204 14.763 28.2563 14.6083C28.0922 14.4536 28 14.2438 28 14.025V7.7665L20.7445 14.6091C20.5802 14.764 20.3574 14.851 20.125 14.851C19.8926 14.851 19.6698 14.764 19.5055 14.6091C19.3412 14.4541 19.2489 14.244 19.2489 14.025C19.2489 13.8059 19.3412 13.5958 19.5055 13.4409L26.7628 6.59995H20.125C19.8929 6.59995 19.6704 6.51303 19.5063 6.35831C19.3422 6.2036 19.25 5.99375 19.25 5.77495Z" fill="#2972C4"/>
+                    </svg>
+                    <div className="linkText">github-link</div>
+                  </button>
+                </a>
+            </div>
+            <div className="photography work">
+              <div className="workTitle">
                   Photography Portfolio
                 </div>
                 <div className="workDesc">
-                  A responsive photography portfolio I created using HTML, CSS and JS.
+                  A responsive photography portfolio I created using HTML, CSS and JS. This was created when I was still learning the basics of HTML, CSS but is nevertheless something I would like to highlight as it was the first responsive site I created.
                 </div>
                 <a href="https://shyamsundarko.github.io/photography_portfolio/" target="_blank" rel="noopener noreferrer" className='linkContainer'>
                   <button className="workLink">
