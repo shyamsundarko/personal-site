@@ -143,7 +143,7 @@
         padding: 0 5vmin;
     }
     .tag{
-        font-size: 3vmin;
+        font-size: 4vmin;
     }
     .workLink{
         padding: 1vmin 2vmin;
@@ -165,7 +165,8 @@
         font-size: 5vmin;
     }
     .linkText{
-        font-size: 4.2vmin;
+        font-size: 4vmin;
     }
+    
 
 }
