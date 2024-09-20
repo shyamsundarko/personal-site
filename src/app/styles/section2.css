@@ -97,7 +97,7 @@
   @media (max-width: 768px) { 
     .imgNameContainer {
       flex-direction: column;
-      justify-content: space-between;
+      /* justify-content: space-between; */
       padding: 20vmin 10vmin 35vmin 10vmin;
     }
     .nameSection{
@@ -107,7 +107,8 @@
     .introSection{
       font-size: 3.5vmin;
       /* text-align: center; */
-      text-align: center;
+      padding: 0 2vmin;
+      text-align: justify;
     }
     .containerHeading{
       font-size: 4vmin;

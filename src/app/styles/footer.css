@@ -7,6 +7,8 @@
     position: relative;
     margin: 0 3vmin;
     border-radius: 10px 10px 0 0;
+    overflow: hidden;
+    
 }
 
 .footerTitle, .footerSubTitle, .bottomFooter{
@@ -20,9 +22,11 @@
 }
 .footerSubTitle{
     font-size: 2vmin;
-    font-weight: 300;
+    font-weight: 400;
     color: #727272;
     letter-spacing: 0.5px;
+    flex-wrap: wrap;
+    width: 100%;
 }
 
 .bottomFooter{
